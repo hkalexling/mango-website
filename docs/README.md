@@ -20,7 +20,7 @@ Mango is written in [Crystal](crystal-lang.org/), a compiled language that offer
 
 #### Highly customizable
 
-Mango has a long list [configuration options](/Readme/?id=config) while offering sane default values to them. Mango has a built-in [MangaDex] downloader, but you can easily install [official](https://github.com/hkalexling/mango-plugins) or third-party plugins to download from other sites.
+Mango has a long list [configuration options](/Readme/?id=config) while offering sane default values to them. Mango has a built-in [MangaDex](https://mangadex.org/) downloader, but you can easily install [official](https://github.com/hkalexling/mango-plugins) or third-party plugins to download from other sites.
 
 ## Quick Start
 
