@@ -5,4 +5,4 @@
 > An open-source manga server and web reader
 
 [GitHub](https://github.com/hkalexling/Mango)
-[Get Started](/Readme/?id=installation)
+[Get Started](#quick-start)

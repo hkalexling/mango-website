@@ -24,13 +24,16 @@ Mango has a long list [configuration options](/Readme/?id=config) while offering
 
 ## Quick Start
 
-Assuming you are running Linux on an `amd64/x86-64` machine, you can install and start Mango by running the following commands
+Assuming you are running Linux on an `amd64/x86-64` machine, to give Mango a try, run the following commands and you are good to go!
 
 ```bash
-curl -s https://api.github.com/repos/hkalexling/Mango/releases/latest | grep "browser_download_url" | head -1 | cut -d\" -f 4 | xargs -L 1 wget
+wget https://github.com/hkalexling/Mango/releases/latest/download/mango
 chmod +x mango
 ./mango
 ```
+
+To uninstall, simply delete the `mango` binary and the main folder `~/mango/`.
+
 
 Please check the full [installation guide](/Readme/?id=installation) for other installation options.
 
