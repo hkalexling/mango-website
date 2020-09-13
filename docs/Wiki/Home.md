@@ -1,0 +1,1 @@
+Welcome to the Mango wiki! Please use the sidebar to navigate between pages.
