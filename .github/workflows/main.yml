@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: my-branch
+          ref: gh-pages
       - name: Build website
         run: make
       - name: Push changes
