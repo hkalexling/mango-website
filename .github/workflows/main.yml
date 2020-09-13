@@ -20,4 +20,4 @@ jobs:
       - name: Push changes
         run: |
           git add docs
-          git commit -m "update" && git push || echo "No changes"
+          git commit -m "update" && git push --set-upstream origin gh-pages || echo "No changes"
