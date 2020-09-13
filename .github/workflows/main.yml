@@ -1,0 +1,23 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install python3
+        run: apt-get update && apt-get install python3
+      - uses: actions/checkout@v2
+      - name: Build website
+        run: make
+      - name: Push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add docs
+          git commit -m "update"
+          git push
