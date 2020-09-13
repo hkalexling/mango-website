@@ -8,7 +8,7 @@ If you are having issues with your `cbr` files, please use the [bulk conversion 
 
 Currently, Mango doesn't have multi-library support, but you can work around this by running multiple instances of Mango on the same machine. You can do so by passing in the paths to different config files when starting Mango. For example
 
-```
+```bash
 mango --config=/path/to/config-1.yml
 mango --config=/path/to/config-2.yml
 ```
