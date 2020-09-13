@@ -7,6 +7,8 @@ files = [f for f in dir_content if \
         f.endswith('.md') and \
         not f == 'README.md' ]
 
+files.sort()
+
 titles = [' '.join(os.path.splitext(f)[0].split('-')) for f in files]
 path = ['/Wiki/{}'.format(os.path.splitext(f)[0]) for f in files]
 
