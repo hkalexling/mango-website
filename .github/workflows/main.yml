@@ -14,8 +14,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git checkout -B gh-pages
-          git pull
+          git checkout gh-pages || git checkout -b gh-pages
       - name: Build website
         run: make
       - name: Push changes
