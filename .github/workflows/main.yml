@@ -10,12 +10,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Switch branch
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git checkout -B gh-pages
       - name: Build website
         run: make
       - name: Push changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
           git add docs
-          git commit -m "update"
-          git push
+          git commit -m "update" && git push || echo "No changes"
