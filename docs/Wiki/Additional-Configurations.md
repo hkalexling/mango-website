@@ -5,7 +5,7 @@ You can follow the steps below to run Mango as a systemd service
 1. Make sure you have the mango binary installed at `/usr/local/bin/mango`.
 2. Create a file named `mango.service` at `/etc/systemd/user` with the following content
 
-```systemd
+```ini
 [Unit]
 Description=Mango manga server
 After=network.target
@@ -27,7 +27,7 @@ WantedBy=default.target
 
 You should customize the `base_url` setting in the config file if you wish to serve Mango under a base URL. For example, if you want to access Mango at `domain.tdl/mango`, set `base_url` to `/mango` and configure your web server accordingly. If you are using Nginx, you can use
 
-```yaml
+```nginx
 location /mango/ {
     proxy_pass http://localhost:9000/;
 }
