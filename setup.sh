@@ -6,6 +6,7 @@ git clone https://github.com/hkalexling/Mango
 mkdir Readme
 cp Mango/README.md Readme
 cp -r Mango/public Readme
+cp -r Mango/.github Readme
 rm -rf Mango
 git clone https://github.com/hkalexling/Mango.wiki Wiki
 rm -rf Readme/.git Wiki/.git
