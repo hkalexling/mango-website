@@ -37,13 +37,22 @@
 </body>
 
 <style>
+	:root {
+		--lighter-dark: #192c3c;
+		--dark: #091a28;
+	}
+
 	section.cover.show {
-		background: #192c3c !important;
+		background: var(--lighter-dark) !important;
 	}
 
 	section.cover.show h1 span,
 	section.cover.show p {
 		color: white !important;
+	}
+
+	body.close .sidebar-toggle {
+		background-color: var(--dark) !important;
 	}
 
 	#docsify-darklight-theme {
