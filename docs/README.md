@@ -1,4 +1,4 @@
-# Mango
+<img src="/devices.png" alt="devices" style="width:100%;max-width:1024px;min-width:150px;padding:50px 25px 50px 0;margin:0 auto;display:block;padding-right:30px;">
 
 ## What is Mango?
 
