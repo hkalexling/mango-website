@@ -16,9 +16,11 @@
 	<script>
 		window.$docsify = {
 			name: 'Mango',
+			repo: 'hkalexling/Mango',
 			coverpage: true,
 			loadSidebar: true,
 			subMaxLevel: 2,
+			auto2top: true,
 			ga: 'UA-66085745-11'
 		}
 	</script>
@@ -33,5 +35,24 @@
 	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
 </body>
+
+<style>
+	section.cover.show {
+		background: #192c3c !important;
+	}
+
+	section.cover.show h1 span,
+	section.cover.show p {
+		color: white !important;
+	}
+
+	#docsify-darklight-theme {
+		display: none;
+	}
+</style>
+
+<script>
+	localStorage.setItem('DARK_LIGHT_THEME', 'dark');
+</script>
 
 </html>
