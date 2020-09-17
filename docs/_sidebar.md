@@ -2,6 +2,7 @@
 - [Readme](/Readme/)
 - Wiki
 	- [Additional Configurations](/Wiki/Additional-Configurations)
+	- [Alternatives](/Wiki/Alternatives)
 	- [CLI Tool](/Wiki/CLI-Tool)
 	- [Development](/Wiki/Development)
 	- [External Readers](/Wiki/External-Readers)
