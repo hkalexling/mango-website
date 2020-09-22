@@ -51,7 +51,7 @@ The official docker images are available on [Dockerhub](https://hub.docker.com/r
 ### CLI
 
 ```
-  Mango - Manga Server and Web Reader. Version 0.12.2
+  Mango - Manga Server and Web Reader. Version 0.12.3
 
   Usage:
 
@@ -142,6 +142,7 @@ Mobile UI:
 ## Sponsors
 
 <a href="https://casinoshunter.com/online-casinos/"><img src="https://i.imgur.com/EJb3wBo.png" width="150" height="auto"></a>
+<a href="https://www.browserstack.com/open-source"><img src="https://i.imgur.com/hGJUJXD.png" width="150" height="auto"></a>
 
 ## Contributors
 
