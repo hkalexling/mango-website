@@ -33,6 +33,12 @@ location /mango/ {
 }
 ```
 
+### Environment Variables
+
+- `HTTP_PROXY` and `HTTPS_PROXY`: Specify the HTTP/HTTPS proxies to use when making out-going requests (e.g., when downloading from MangaDex)
+- `NO_PROXY`: Specify a comma-separated list of hosts that should be connected directly without using proxies
+- `DISABLE_SSL_VERIFICATION`: When set to `1` or `true`, disable the SSL verification for all out-going requests
+
 ### MangaDex Rename Rules
 
 You can customize the naming rules of manga and chapters downloaded from MangaDex using the `chapter_rename_rule` and `manga_rename_rule` fields in the `mangadex` config section. Here we explain the terminologies.
