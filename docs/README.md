@@ -12,7 +12,7 @@ Mango is designed with the following philosophies in mind:
 
 #### Easy to deploy and use
 
-On Linux, Mango can be deployed with a single binary that includes all the dependencies and static files. Upgrading to a new version is as easy as replacing the binary with a new one.
+On amd64 Linux, Mango can be deployed with a single binary that includes all the dependencies and static files. Upgrading to a new version is as easy as replacing the binary with a new one.
 
 #### Good performance
 
@@ -20,7 +20,7 @@ Mango is written in [Crystal](crystal-lang.org/), a compiled language that offer
 
 #### Highly customizable
 
-Mango has a long list [configuration options](/Readme/?id=config) while offering sane default values to them. Mango has a built-in [MangaDex](https://mangadex.org/) downloader, but you can easily install [official](https://github.com/hkalexling/mango-plugins) or third-party plugins to download from other sites.
+Mango has a long list of [configuration options](/Readme/?id=config) while offering sane default values to them. Mango has a built-in [MangaDex](https://mangadex.org/) downloader, but you can easily install [official](https://github.com/hkalexling/mango-plugins) or third-party plugins to download from other sites.
 
 ## Quick Start
 
