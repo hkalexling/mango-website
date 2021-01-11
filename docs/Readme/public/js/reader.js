@@ -101,8 +101,9 @@ const readerComponent = () => {
 		 */
 		flipPage(isNext) {
 			const idx = parseInt(this.curItem.id);
-			const delta = isNext ? 1 : -1;
-			const newIdx = idx + delta;
+			const newIdx = idx + (isNext ? 1 : -1);
+
+			if (newIdx <= 0 || newIdx > this.items.length) return;
 
 			this.toPage(newIdx);
 
@@ -240,7 +241,7 @@ const readerComponent = () => {
 		 */
 		setupScroller() {
 			if (this.mode !== 'continuous') return;
-			$('#root img').each((idx, el) => {
+			$('img').each((idx, el) => {
 				$(el).on('inview', (event, inView) => {
 					if (inView) {
 						const current = $(event.currentTarget).attr('id');
