@@ -1,3 +1,30 @@
+### Reverse Proxy
+
+#### Example Apache Config
+
+```apache
+<Location />
+    RewriteEngine On
+    RewriteCond %{HTTP:Connection} Upgrade [NC]
+    RewriteCond %{HTTP:Upgrade} websocket [NC]
+    RewriteRule /(.*) ws://127.0.0.1:9000/$1 [P,L]
+
+    ProxyPass "http://localhost:9000/"
+    ProxyPassReverse "http://localhost:9000/"
+</Location>
+```
+
+#### Example Nginx Config
+
+```nginx
+location / {
+    proxy_pass http://localhost:9000/;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+}
+```
+
 ### Systemd Service
 
 You can follow the steps below to run Mango as a systemd service
@@ -30,6 +57,9 @@ You should customize the `base_url` setting in the config file if you wish to se
 ```nginx
 location /mango/ {
     proxy_pass http://localhost:9000/;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
 }
 ```
 

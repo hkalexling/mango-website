@@ -6,5 +6,6 @@
 	- [CLI Tool](/Wiki/CLI-Tool)
 	- [Development](/Wiki/Development)
 	- [External Readers](/Wiki/External-Readers)
+	- [FAQs](/Wiki/FAQs)
 	- [Platform Support](/Wiki/Platform-Support)
 	- [Workarounds](/Wiki/Workarounds)
