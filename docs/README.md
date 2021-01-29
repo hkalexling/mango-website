@@ -42,6 +42,7 @@ Please check the full [installation guide](/Readme/?id=installation) for other i
 Mango is, and will always be a free and open-source software. Any contributions to the project are welcome!
 
 - **Submit bug reports and feature requests**: The best way you can help is to use Mango! Any feedback or reports are highly appreciated. Please don't hesitate to [submit an issue](https://github.com/hkalexling/Mango/issues/new/choose) in the GitHub repository.
+- **Test pre-releases**: You can help test the [pre-releases](https://github.com/hkalexling/Mango/pulls?q=is%3Apr+is%3Aopen+label%3Apre-release) (if any) and see if they work as expected. 
 - **Help develop Mango**: Please feel free to submit a PR. You should read the [development guideline](Wiki/Development) before you start.
 - **Become a sponsor**: If you are feeling generous, you can become a sponsor by supporting Mango on [Patreon](https://www.patreon.com/hkalexling). Please let me know if you wish to advertise your website or project in the project [README](/Readme/?id=sponsors).
 
