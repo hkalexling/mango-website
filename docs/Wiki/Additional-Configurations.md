@@ -1,6 +1,6 @@
-### Reverse Proxy
+## Reverse Proxy
 
-#### Example Apache Config
+### Example Apache Config
 
 ```apache
 <Location />
@@ -14,7 +14,7 @@
 </Location>
 ```
 
-#### Example Nginx Config
+### Example Nginx Config
 
 ```nginx
 location / {
@@ -25,7 +25,7 @@ location / {
 }
 ```
 
-### Systemd Service
+## Systemd Service
 
 You can follow the steps below to run Mango as a systemd service
 
@@ -50,7 +50,7 @@ WantedBy=default.target
 3. Enable the service by running `systemctl --user enable mango.service`.
 4. Now you can start Mango using `systemctl --user start mango`.
 
-### Base URL
+## Base URL
 
 You should customize the `base_url` setting in the config file if you wish to serve Mango under a base URL. For example, if you want to access Mango at `domain.tdl/mango`, set `base_url` to `/mango` and configure your web server accordingly. If you are using Nginx, you can use
 
@@ -63,13 +63,13 @@ location /mango/ {
 }
 ```
 
-### Environment Variables
+## Environment Variables
 
 - `HTTP_PROXY` and `HTTPS_PROXY`: Specify the HTTP/HTTPS proxies to use when making out-going requests (e.g., when downloading from MangaDex)
 - `NO_PROXY`: Specify a comma-separated list of hosts that should be connected directly without using proxies
 - `DISABLE_SSL_VERIFICATION`: When set to `1` or `true`, disable the SSL verification for all out-going requests
 
-### MangaDex Rename Rules
+## MangaDex Rename Rules
 
 You can customize the naming rules of manga and chapters downloaded from MangaDex using the `chapter_rename_rule` and `manga_rename_rule` fields in the `mangadex` config section. Here we explain the terminologies.
 

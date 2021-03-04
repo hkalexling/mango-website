@@ -3,6 +3,7 @@
 - Wiki
 	- [Additional Configurations](/Wiki/Additional-Configurations)
 	- [Alternatives](/Wiki/Alternatives)
+	- [Authentication Methods](/Wiki/Authentication-Methods)
 	- [CLI Tool](/Wiki/CLI-Tool)
 	- [Development](/Wiki/Development)
 	- [External Readers](/Wiki/External-Readers)

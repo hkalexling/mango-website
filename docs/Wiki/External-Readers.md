@@ -1,4 +1,4 @@
-### OPDS
+## OPDS
 
 You can use any OPDS reader with CBZ/CBR support to access your Mango library. The OPDS catalog is available at `/opds` (login required).
 
