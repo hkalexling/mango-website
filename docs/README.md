@@ -32,6 +32,8 @@ chmod +x mango
 ./mango
 ```
 
+Note: if you're running from a home directory you will need to rename the executable before running.
+
 To uninstall, simply delete the `mango` binary and the main folder `~/mango/`.
 
 
