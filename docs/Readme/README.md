@@ -24,7 +24,7 @@ Please check the [Wiki](https://github.com/hkalexling/Mango/wiki) for more infor
 
 ### Pre-built Binary
 
-Simply download the pre-built binary file `mango` for the latest [release](https://github.com/hkalexling/Mango/releases). All the dependencies are statically linked, and it should work with most Linux systems on amd64.
+Simply download the pre-built binary file `mango` for the latest [release](https://github.com/hkalexling/Mango/releases). All the dependencies are statically linked, and it should work with most Linux systems on amd64. Note: if running from a home directory you need to rename the executable.
 
 ### Docker
 
