@@ -3,6 +3,7 @@
 If you are not satisfied with Mango, don't stop here! Here are some other self-hosted manga servers that might suit your needs. Go give them some love!
 
 - [Calibre-Web](https://github.com/janeczku/calibre-web)
+- [Kavita](https://github.com/Kareadita/Kavita)
 - [Komga](https://github.com/gotson/komga/)
 - [LANraragi](https://github.com/Difegue/LANraragi)
 - [Tanoshi](https://github.com/faldez/tanoshi)
