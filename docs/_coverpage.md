@@ -1,4 +1,4 @@
-![logo](https://github.com/hkalexling/Mango/raw/master/public/img/icon.png)
+![logo](https://github.com/hkalexling/Mango/raw/master/public/img/icons/icon.png)
 
 # Mango
 
